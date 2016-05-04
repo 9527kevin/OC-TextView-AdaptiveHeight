@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF35F0741CD9B3FD003FE19F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF35F0731CD9B3FD003FE19F /* main.m */; };
+		AF35F0771CD9B3FD003FE19F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF35F0761CD9B3FD003FE19F /* AppDelegate.m */; };
+		AF35F07A1CD9B3FD003FE19F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF35F0791CD9B3FD003FE19F /* ViewController.m */; };
+		AF35F07D1CD9B3FD003FE19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF35F07B1CD9B3FD003FE19F /* Main.storyboard */; };
+		AF35F07F1CD9B3FD003FE19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF35F07E1CD9B3FD003FE19F /* Assets.xcassets */; };
+		AF35F0821CD9B3FD003FE19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF35F0801CD9B3FD003FE19F /* LaunchScreen.storyboard */; };
+		AF35F08D1CD9B3FD003FE19F /* OC____TextView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF35F08C1CD9B3FD003FE19F /* OC____TextView____Tests.m */; };
+		AF35F0981CD9B3FD003FE19F /* OC____TextView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF35F0971CD9B3FD003FE19F /* OC____TextView____UITests.m */; };
+		AF35F0A81CD9B48E003FE19F /* DZMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF35F0A71CD9B48E003FE19F /* DZMInputView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF35F0891CD9B3FD003FE19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF35F0671CD9B3FD003FE19F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF35F06E1CD9B3FD003FE19F;
+			remoteInfo = "OC自动增高TextView简单使用";
+		};
+		AF35F0941CD9B3FD003FE19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF35F0671CD9B3FD003FE19F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF35F06E1CD9B3FD003FE19F;
+			remoteInfo = "OC自动增高TextView简单使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF35F06F1CD9B3FD003FE19F /* OC自动增高TextView简单使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC自动增高TextView简单使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF35F0731CD9B3FD003FE19F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF35F0751CD9B3FD003FE19F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF35F0761CD9B3FD003FE19F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF35F0781CD9B3FD003FE19F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF35F0791CD9B3FD003FE19F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF35F07C1CD9B3FD003FE19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF35F07E1CD9B3FD003FE19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF35F0811CD9B3FD003FE19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF35F0831CD9B3FD003FE19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF35F0881CD9B3FD003FE19F /* OC自动增高TextView简单使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC自动增高TextView简单使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF35F08C1CD9B3FD003FE19F /* OC____TextView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC____TextView____Tests.m"; sourceTree = "<group>"; };
+		AF35F08E1CD9B3FD003FE19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF35F0931CD9B3FD003FE19F /* OC自动增高TextView简单使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC自动增高TextView简单使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF35F0971CD9B3FD003FE19F /* OC____TextView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC____TextView____UITests.m"; sourceTree = "<group>"; };
+		AF35F0991CD9B3FE003FE19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF35F0A61CD9B48E003FE19F /* DZMInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMInputView.h; sourceTree = "<group>"; };
+		AF35F0A71CD9B48E003FE19F /* DZMInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMInputView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF35F06C1CD9B3FD003FE19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35F0851CD9B3FD003FE19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35F0901CD9B3FD003FE19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF35F0661CD9B3FD003FE19F = {
+			isa = PBXGroup;
+			children = (
+				AF35F0711CD9B3FD003FE19F /* OC自动增高TextView简单使用 */,
+				AF35F08B1CD9B3FD003FE19F /* OC自动增高TextView简单使用Tests */,
+				AF35F0961CD9B3FD003FE19F /* OC自动增高TextView简单使用UITests */,
+				AF35F0701CD9B3FD003FE19F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF35F0701CD9B3FD003FE19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF35F06F1CD9B3FD003FE19F /* OC自动增高TextView简单使用.app */,
+				AF35F0881CD9B3FD003FE19F /* OC自动增高TextView简单使用Tests.xctest */,
+				AF35F0931CD9B3FD003FE19F /* OC自动增高TextView简单使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF35F0711CD9B3FD003FE19F /* OC自动增高TextView简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				AF35F0A51CD9B43A003FE19F /* DZMInputView */,
+				AF35F0751CD9B3FD003FE19F /* AppDelegate.h */,
+				AF35F0761CD9B3FD003FE19F /* AppDelegate.m */,
+				AF35F0781CD9B3FD003FE19F /* ViewController.h */,
+				AF35F0791CD9B3FD003FE19F /* ViewController.m */,
+				AF35F07B1CD9B3FD003FE19F /* Main.storyboard */,
+				AF35F07E1CD9B3FD003FE19F /* Assets.xcassets */,
+				AF35F0801CD9B3FD003FE19F /* LaunchScreen.storyboard */,
+				AF35F0831CD9B3FD003FE19F /* Info.plist */,
+				AF35F0721CD9B3FD003FE19F /* Supporting Files */,
+			);
+			path = "OC自动增高TextView简单使用";
+			sourceTree = "<group>";
+		};
+		AF35F0721CD9B3FD003FE19F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF35F0731CD9B3FD003FE19F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF35F08B1CD9B3FD003FE19F /* OC自动增高TextView简单使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AF35F08C1CD9B3FD003FE19F /* OC____TextView____Tests.m */,
+				AF35F08E1CD9B3FD003FE19F /* Info.plist */,
+			);
+			path = "OC自动增高TextView简单使用Tests";
+			sourceTree = "<group>";
+		};
+		AF35F0961CD9B3FD003FE19F /* OC自动增高TextView简单使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF35F0971CD9B3FD003FE19F /* OC____TextView____UITests.m */,
+				AF35F0991CD9B3FE003FE19F /* Info.plist */,
+			);
+			path = "OC自动增高TextView简单使用UITests";
+			sourceTree = "<group>";
+		};
+		AF35F0A51CD9B43A003FE19F /* DZMInputView */ = {
+			isa = PBXGroup;
+			children = (
+				AF35F0A61CD9B48E003FE19F /* DZMInputView.h */,
+				AF35F0A71CD9B48E003FE19F /* DZMInputView.m */,
+			);
+			path = DZMInputView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF35F06E1CD9B3FD003FE19F /* OC自动增高TextView简单使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF35F09C1CD9B3FE003FE19F /* Build configuration list for PBXNativeTarget "OC自动增高TextView简单使用" */;
+			buildPhases = (
+				AF35F06B1CD9B3FD003FE19F /* Sources */,
+				AF35F06C1CD9B3FD003FE19F /* Frameworks */,
+				AF35F06D1CD9B3FD003FE19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC自动增高TextView简单使用";
+			productName = "OC自动增高TextView简单使用";
+			productReference = AF35F06F1CD9B3FD003FE19F /* OC自动增高TextView简单使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF35F0871CD9B3FD003FE19F /* OC自动增高TextView简单使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF35F09F1CD9B3FE003FE19F /* Build configuration list for PBXNativeTarget "OC自动增高TextView简单使用Tests" */;
+			buildPhases = (
+				AF35F0841CD9B3FD003FE19F /* Sources */,
+				AF35F0851CD9B3FD003FE19F /* Frameworks */,
+				AF35F0861CD9B3FD003FE19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF35F08A1CD9B3FD003FE19F /* PBXTargetDependency */,
+			);
+			name = "OC自动增高TextView简单使用Tests";
+			productName = "OC自动增高TextView简单使用Tests";
+			productReference = AF35F0881CD9B3FD003FE19F /* OC自动增高TextView简单使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF35F0921CD9B3FD003FE19F /* OC自动增高TextView简单使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF35F0A21CD9B3FE003FE19F /* Build configuration list for PBXNativeTarget "OC自动增高TextView简单使用UITests" */;
+			buildPhases = (
+				AF35F08F1CD9B3FD003FE19F /* Sources */,
+				AF35F0901CD9B3FD003FE19F /* Frameworks */,
+				AF35F0911CD9B3FD003FE19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF35F0951CD9B3FD003FE19F /* PBXTargetDependency */,
+			);
+			name = "OC自动增高TextView简单使用UITests";
+			productName = "OC自动增高TextView简单使用UITests";
+			productReference = AF35F0931CD9B3FD003FE19F /* OC自动增高TextView简单使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF35F0671CD9B3FD003FE19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DZM;
+				TargetAttributes = {
+					AF35F06E1CD9B3FD003FE19F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AF35F0871CD9B3FD003FE19F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AF35F06E1CD9B3FD003FE19F;
+					};
+					AF35F0921CD9B3FD003FE19F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AF35F06E1CD9B3FD003FE19F;
+					};
+				};
+			};
+			buildConfigurationList = AF35F06A1CD9B3FD003FE19F /* Build configuration list for PBXProject "OC自动增高TextView简单使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF35F0661CD9B3FD003FE19F;
+			productRefGroup = AF35F0701CD9B3FD003FE19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF35F06E1CD9B3FD003FE19F /* OC自动增高TextView简单使用 */,
+				AF35F0871CD9B3FD003FE19F /* OC自动增高TextView简单使用Tests */,
+				AF35F0921CD9B3FD003FE19F /* OC自动增高TextView简单使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF35F06D1CD9B3FD003FE19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35F0821CD9B3FD003FE19F /* LaunchScreen.storyboard in Resources */,
+				AF35F07F1CD9B3FD003FE19F /* Assets.xcassets in Resources */,
+				AF35F07D1CD9B3FD003FE19F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35F0861CD9B3FD003FE19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35F0911CD9B3FD003FE19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF35F06B1CD9B3FD003FE19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35F07A1CD9B3FD003FE19F /* ViewController.m in Sources */,
+				AF35F0771CD9B3FD003FE19F /* AppDelegate.m in Sources */,
+				AF35F0741CD9B3FD003FE19F /* main.m in Sources */,
+				AF35F0A81CD9B48E003FE19F /* DZMInputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35F0841CD9B3FD003FE19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35F08D1CD9B3FD003FE19F /* OC____TextView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35F08F1CD9B3FD003FE19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35F0981CD9B3FD003FE19F /* OC____TextView____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF35F08A1CD9B3FD003FE19F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF35F06E1CD9B3FD003FE19F /* OC自动增高TextView简单使用 */;
+			targetProxy = AF35F0891CD9B3FD003FE19F /* PBXContainerItemProxy */;
+		};
+		AF35F0951CD9B3FD003FE19F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF35F06E1CD9B3FD003FE19F /* OC自动增高TextView简单使用 */;
+			targetProxy = AF35F0941CD9B3FD003FE19F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF35F07B1CD9B3FD003FE19F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF35F07C1CD9B3FD003FE19F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF35F0801CD9B3FD003FE19F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF35F0811CD9B3FD003FE19F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF35F09A1CD9B3FE003FE19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF35F09B1CD9B3FE003FE19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF35F09D1CD9B3FE003FE19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC自动增高TextView简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DZM.OC----TextView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF35F09E1CD9B3FE003FE19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC自动增高TextView简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DZM.OC----TextView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF35F0A01CD9B3FE003FE19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OC自动增高TextView简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DZM.OC----TextView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC自动增高TextView简单使用.app/OC自动增高TextView简单使用";
+			};
+			name = Debug;
+		};
+		AF35F0A11CD9B3FE003FE19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OC自动增高TextView简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DZM.OC----TextView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC自动增高TextView简单使用.app/OC自动增高TextView简单使用";
+			};
+			name = Release;
+		};
+		AF35F0A31CD9B3FE003FE19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OC自动增高TextView简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DZM.OC----TextView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC自动增高TextView简单使用";
+			};
+			name = Debug;
+		};
+		AF35F0A41CD9B3FE003FE19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OC自动增高TextView简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DZM.OC----TextView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC自动增高TextView简单使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF35F06A1CD9B3FD003FE19F /* Build configuration list for PBXProject "OC自动增高TextView简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF35F09A1CD9B3FE003FE19F /* Debug */,
+				AF35F09B1CD9B3FE003FE19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF35F09C1CD9B3FE003FE19F /* Build configuration list for PBXNativeTarget "OC自动增高TextView简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF35F09D1CD9B3FE003FE19F /* Debug */,
+				AF35F09E1CD9B3FE003FE19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF35F09F1CD9B3FE003FE19F /* Build configuration list for PBXNativeTarget "OC自动增高TextView简单使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF35F0A01CD9B3FE003FE19F /* Debug */,
+				AF35F0A11CD9B3FE003FE19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF35F0A21CD9B3FE003FE19F /* Build configuration list for PBXNativeTarget "OC自动增高TextView简单使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF35F0A31CD9B3FE003FE19F /* Debug */,
+				AF35F0A41CD9B3FE003FE19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF35F0671CD9B3FD003FE19F /* Project object */;
+}

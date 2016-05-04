@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OC&#x81ea;&#x52a8;&#x589e;&#x9ad8;TextView&#x7b80;&#x5355;&#x4f7f;&#x7528;/ViewController.m"
+            timestampString = "484037880.102618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-textViewDidChange:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OC&#x81ea;&#x52a8;&#x589e;&#x9ad8;TextView&#x7b80;&#x5355;&#x4f7f;&#x7528;/ViewController.m"
+            timestampString = "484037880.102618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-textViewDidChange:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController textViewDidChange:]"
+                  moduleName = "OC&#x81ea;&#x52a8;&#x589e;&#x9ad8;TextView&#x7b80;&#x5355;&#x4f7f;&#x7528;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dengzemiao/Desktop/%E5%B8%B8%E7%94%A8%E8%B5%84%E6%96%99/%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E8%B5%84%E6%96%99/OC%E8%87%AA%E5%8A%A8%E5%A2%9E%E9%AB%98TextView%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/OC%E8%87%AA%E5%8A%A8%E5%A2%9E%E9%AB%98TextView%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/ViewController.m"
+                  timestampString = "484037881.112148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[ViewController textViewDidChange:]_block_invoke"
+                  moduleName = "OC&#x81ea;&#x52a8;&#x589e;&#x9ad8;TextView&#x7b80;&#x5355;&#x4f7f;&#x7528;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dengzemiao/Desktop/%E5%B8%B8%E7%94%A8%E8%B5%84%E6%96%99/%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E8%B5%84%E6%96%99/OC%E8%87%AA%E5%8A%A8%E5%A2%9E%E9%AB%98TextView%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/OC%E8%87%AA%E5%8A%A8%E5%A2%9E%E9%AB%98TextView%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/ViewController.m"
+                  timestampString = "484037881.112301"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OC&#x81ea;&#x52a8;&#x589e;&#x9ad8;TextView&#x7b80;&#x5355;&#x4f7f;&#x7528;/DZMInputView/DZMInputView.m"
+            timestampString = "484037805.947284"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-initWithFrame:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OC&#x81ea;&#x52a8;&#x589e;&#x9ad8;TextView&#x7b80;&#x5355;&#x4f7f;&#x7528;/DZMInputView/DZMInputView.m"
+            timestampString = "484037806.881222"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "-awakeFromNib"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
