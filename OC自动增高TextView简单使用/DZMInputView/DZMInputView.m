@@ -50,7 +50,7 @@
  */
 - (void)initSetup {
     
-    self.inset = UIEdgeInsetsMake(5, 5, 5, 5);
+    self.edgeInsets = UIEdgeInsetsMake(5, 5, 5, 5);
     self.animationDuration = 0.25;
     self.TextViewSpace = 5;
     self.IsInit = YES;
@@ -84,8 +84,8 @@
     
     CGFloat w = self.frame.size.width;
     CGFloat h = self.frame.size.height;
-    CGFloat textViewW = w - self.inset.right - self.inset.left;
-    CGFloat textViewH = h - self.inset.top - self.inset.bottom;
+    CGFloat textViewW = w - self.edgeInsets.right - self.edgeInsets.left;
+    CGFloat textViewH = h - self.edgeInsets.top - self.edgeInsets.bottom;
     
     if (self.IsInit) {
         self.IsInit = NO;
@@ -94,7 +94,7 @@
     
     __weak DZMInputView *weakSelf = self;
     [UIView animateWithDuration:self.TempDuration animations:^{
-        weakSelf.textView.frame = CGRectMake(weakSelf.inset.left, weakSelf.inset.top, textViewW, textViewH);
+        weakSelf.textView.frame = CGRectMake(weakSelf.edgeInsets.left, weakSelf.edgeInsets.top, textViewW, textViewH);
     }];
 }
 
@@ -112,9 +112,9 @@
     
     CGFloat maxW = self.textView.frame.size.width - self.textView.textContainerInset.left - self.textView.textContainerInset.right - 2*self.TextViewSpace;
     
-    CGSize textViewSize = [textStr boundingRectWithSize:CGSizeMake(maxW, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:self.textView.font} context:nil].size;
+    CGSize textViewSize = [textStr boundingRectWithSize:CGSizeMake(floor(maxW), CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:self.textView.font} context:nil].size;
     
-    CGFloat h = textViewSize.height + self.textView.textContainerInset.top + self.textView.textContainerInset.bottom + self.inset.top + self.inset.bottom;
+    CGFloat h = ceil(textViewSize.height + self.textView.textContainerInset.top + self.textView.textContainerInset.bottom + self.edgeInsets.top + self.edgeInsets.bottom);
     
     if (self.OriginH > 0) {
         self.changeH = h - self.OriginH;

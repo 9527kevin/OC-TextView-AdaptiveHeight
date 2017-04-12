@@ -12,7 +12,7 @@
 /**
  *  输入框的周边间距 default: UIEdgeInsetsMake(5, 5, 5, 5)
  */
-@property (nonatomic,assign) UIEdgeInsets inset;
+@property (nonatomic,assign) UIEdgeInsets edgeInsets;
 
 /**
  *  高度变动之后的间距差

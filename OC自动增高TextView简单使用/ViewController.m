@@ -29,7 +29,7 @@
     self.inputview.frame = CGRectMake(10, 100, 100, [self.inputview height]);
     
     
-    self.xibInputView.inset = UIEdgeInsetsMake(5, 50, 5, 5);
+    self.xibInputView.edgeInsets = UIEdgeInsetsMake(5, 50, 5, 5);
     self.xibInputView.textView.delegate = self;
     self.xibInputView.textView.tag = 1;
 }

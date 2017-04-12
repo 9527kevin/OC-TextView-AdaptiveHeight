@@ -26,7 +26,7 @@
             startingLineNumber = "49"
             endingLineNumber = "49"
             landmarkName = "-textViewDidChange:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,7 +42,7 @@
             startingLineNumber = "41"
             endingLineNumber = "41"
             landmarkName = "-textViewDidChange:"
-            landmarkType = "5">
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -90,7 +90,7 @@
             startingLineNumber = "38"
             endingLineNumber = "38"
             landmarkName = "-initWithFrame:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,7 +106,7 @@
             startingLineNumber = "45"
             endingLineNumber = "45"
             landmarkName = "-awakeFromNib"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
